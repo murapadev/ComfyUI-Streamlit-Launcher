@@ -1,10 +1,10 @@
   # ComfyUI Workflow Launcher - Streamlit Edition
 
-![GitHub last commit](https://img.shields.io/github/last-commit/murapadev/comfyui-streamlit-launcher)
-![GitHub issues](https://img.shields.io/github/issues/murapadev/comfyui-streamlit-launcher)
-![GitHub stars](https://img.shields.io/github/stars/murapadev/comfyui-streamlit-launcher?style=social)
-![GitHub forks](https://img.shields.io/github/forks/murapadev/comfyui-streamlit-launcher?style=social)
-![License](https://img.shields.io/github/license/murapadev/comfyui-streamlit-launcher)
+![GitHub last commit](https://img.shields.io/github/last-commit/murapadev/ComfyUI-Streamlit-Launcher)
+![GitHub issues](https://img.shields.io/github/issues/murapadev/ComfyUI-Streamlit-Launcher)
+![GitHub stars](https://img.shields.io/github/stars/murapadev/ComfyUI-Streamlit-Launcher?style=social)
+![GitHub forks](https://img.shields.io/github/forks/murapadev/ComfyUI-Streamlit-Launcher?style=social)
+![License](https://img.shields.io/github/license/murapadev/ComfyUI-Streamlit-Launcher)
 
 🚀 A user-friendly interface for managing **ComfyUI** projects with **Streamlit**.
 
@@ -28,7 +28,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/murapadev/comfyui-streamlit-launcher.git
+git clone https://github.com/murapadev/ComfyUI-Streamlit-Launcher.git
 cd comfyui-launcher/streamlit
 ```
 
