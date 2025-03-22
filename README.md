@@ -1,87 +1,131 @@
-# ComfyUI Workflow Launcher - Streamlit Edition
+  # ComfyUI Workflow Launcher - Streamlit Edition
 
-A streamlined interface for managing ComfyUI projects built with Streamlit.
+![GitHub last commit](https://img.shields.io/github/last-commit/murapadev/comfyui-streamlit-launcher)
+![GitHub issues](https://img.shields.io/github/issues/murapadev/comfyui-streamlit-launcher)
+![GitHub stars](https://img.shields.io/github/stars/murapadev/comfyui-streamlit-launcher?style=social)
+![GitHub forks](https://img.shields.io/github/forks/murapadev/comfyui-streamlit-launcher?style=social)
+![License](https://img.shields.io/github/license/murapadev/comfyui-streamlit-launcher)
 
-## Features
+🚀 A user-friendly interface for managing **ComfyUI** projects with **Streamlit**.
 
-- Create new ComfyUI workflows from templates
-- Import existing ComfyUI workflows from JSON files
-- Manage project lifecycle (start, stop, delete)
-- View system information and model details
-- Track project status and ports
-- Responsive UI with a clean, modern design
+⚠️ **Work in Progress**: This project is actively being developed. Some features may change or be incomplete.
 
-## Installation
+---
 
-1. Clone the repository:
+## ✨ Features
+
+- **Create workflows** from predefined templates
+- **Import workflows** from JSON files
+- **Manage projects** (start, stop, delete)
+- **Monitor system info** and model details
+- **Track workflow status** and port usage
+- **Modern, responsive UI** for seamless interaction
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/murapadev/comfyui-launcher.git
+git clone https://github.com/murapadev/comfyui-streamlit-launcher.git
 cd comfyui-launcher/streamlit
 ```
 
-2. Install the required dependencies:
+### 2. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+---
 
-Start the Streamlit application:
+## 🚀 Usage
+
+### Start the application
+
 ```bash
 streamlit run app.py
 ```
 
-The application will be available at http://localhost:8501 by default.
+The app will be available at [http://localhost:8501](http://localhost:8501) by default.
 
 ### Creating a New Workflow
 
-1. Click on "Create New Workflow" in the sidebar or from the home page
-2. Enter a name for your workflow
-3. Select a template from the available options
-4. Optionally specify a fixed port
-5. Click "Create Workflow"
+1. Click **"Create New Workflow"** (sidebar or home page)
+2. Enter a **workflow name**
+3. Select a **template**
+4. (Optional) Specify a **fixed port**
+5. Click **"Create Workflow"**
 
 ### Importing a Workflow
 
-1. Click on "Import Workflow" in the sidebar or from the home page
-2. Enter a name for your workflow
-3. Choose to either upload a JSON file or paste JSON content
-4. Optionally specify a fixed port or skip model validation
-5. Click "Import Workflow"
+1. Click **"Import Workflow"**
+2. Enter a **workflow name**
+3. Upload a **JSON file** or paste JSON content
+4. (Optional) Set a **fixed port** or skip model validation
+5. Click **"Import Workflow"**
 
 ### Managing Workflows
 
 From the home page, you can:
-- Start ready workflows
-- Open or stop running workflows
-- Delete any workflow
 
-### Settings
+- **Start** ready workflows
+- **Open/Stop** running workflows
+- **Delete** workflows
 
-The settings page provides information about:
-- System information and directory paths
-- Port configuration and availability
-- Model storage and details
+### ⚙️ Settings
 
-## Directory Structure
+Access system information and configurations, including:
 
-- `projects/`: Contains all created ComfyUI projects
-- `models/`: Shared models directory used by all projects
-- `templates/`: Template workflows for creating new projects
+- **System & directory info**
+- **Port configuration**
+- **Model storage details**
 
-## Requirements
+---
 
-- Python 3.8+
-- Streamlit 1.24.0+
-- psutil
-- requests
+## 📂 Directory Structure
 
-## Copyright
+- `projects/` - Created ComfyUI projects
+- `models/` - Shared models directory
+- `templates/` - Workflow templates
 
-## Copyright and Attribution
+---
 
-This project is based on code from:
+## 📌 Requirements
 
-- [ComfyUI-Launcher](https://github.com/ComfyWorkflows/ComfyUI-Launcher) - Licensed under [AGPL-3.0](https://github.com/ComfyWorkflows/ComfyUI-Launcher/blob/bb6690462780abecaa733814d02f8ccee1b0a829/server/utils.py)
+- Python **3.8+**
+- `streamlit>=1.24.0`
+- `requests>=2.28.1`
+- `psutil>=5.9.0`
+- `tqdm>=4.64.1`
+- `pillow>=9.3.0`
+- `watchdog>=3.0.0`
+- `pandas>=1.5.0`
+- `plotly>=5.13.0`
+- `streamlit-option-menu>=0.3.2`
+- `streamlit-extras>=0.3.0`
+- `python-dotenv>=1.0.0`
+- `celery`
+- *(Optional)* `torch>=2.0.0` (for ML functionality)
 
-All derivative work maintains compliance with the original license terms.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. **Fork** the repository
+2. **Create a new branch** (`git checkout -b feature-name`)
+3. **Commit your changes** (`git commit -m "Add feature"`)
+4. **Push to your branch** (`git push origin feature-name`)
+5. **Submit a Pull Request** 🚀
+
+---
+
+## 📜 License & Attribution
+
+This project is based on [ComfyUI-Launcher](https://github.com/ComfyWorkflows/ComfyUI-Launcher) ([AGPL-3.0 License](https://github.com/ComfyWorkflows/ComfyUI-Launcher/blob/bb6690462780abecaa733814d02f8ccee1b0a829/server/utils.py)). All derivative work complies with the original license terms.
+
+📌 **Star this project** ⭐ if you find it useful!
+
