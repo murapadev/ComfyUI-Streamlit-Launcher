@@ -1,0 +1,18 @@
+{
+  "credentials": {
+    "civitai": {
+      "apikey": ""
+    }
+  },
+  "directories": {
+    "projects": "./projects",
+    "models": "./models",
+    "templates": "./templates"
+  },
+  "port_configuration": {
+    "allow_overridable_ports": true,
+    "project_min_port": 4001,
+    "project_max_port": 4100,
+    "server_port": 8501
+  }
+}
